@@ -7,7 +7,7 @@ public class Hexagon extends pyramid{
     }
 
     public void printHexagon(){
-        System.out.println("---Hexagon---");
+        System.out.println("---Pentagon---");
         super.printPyramid();
         for (int i = 1; i <= super.number; i++) {
 
