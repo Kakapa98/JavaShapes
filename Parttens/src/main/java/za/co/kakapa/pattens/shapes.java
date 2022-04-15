@@ -12,7 +12,7 @@ public class shapes {
         // User should also enter the height of the shape they want to display
         String shapeType;
 
-        System.out.println("Please enter the shape(Pyramid,Square,Triangle,Hexagon): ");
+        System.out.println("Please enter the shape(Pyramid,Square,Triangle,Pentagon): ");
         shapeType = scanner.next();
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
@@ -27,8 +27,8 @@ public class shapes {
             Square square = new Square(number);
             square.printSquare();
         }
-        else if(shapeType.equalsIgnoreCase("hexagon")){
-            System.out.println("<Hexagon height is times two of the height you enter>");
+        else if(shapeType.equalsIgnoreCase("Pentagon")){
+            System.out.println("<Pentagon height is times two of the height you enter>");
             Hexagon hexagon = new Hexagon(number);
             hexagon.printHexagon();
         }
